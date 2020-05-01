@@ -1,0 +1,29 @@
+.menu-top {
+  display: flex;
+
+  &__logo {
+    display: flex;
+    margin-right: 40px;
+
+    img {
+      width: 160px;
+    }
+  }
+
+  .ant-menu {
+    height: auto;
+
+    .ant-menu-item {
+      height: 100%;
+      font-size: 16px;
+
+      a {
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+.ant-layout-header {
+  height: auto !important;
+}
